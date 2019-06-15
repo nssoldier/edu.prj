@@ -1,0 +1,36 @@
+{
+  "name": "edu.prj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nssoldier/edu.prj.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nssoldier/edu.prj/issues"
+  },
+  "homepage": "https://github.com/nssoldier/edu.prj#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-graphql": "^0.8.0",
+    "flat-ioc": "^1.1.1",
+    "graphql": "^14.3.1",
+    "graphql-tools": "^4.0.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
